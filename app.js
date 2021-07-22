@@ -47,3 +47,7 @@ const lis = ol.getElementsByTagName("li");
 for (const li of lis) {
 	li.style.backgroundColor = "green";
 }
+
+// 12. Remove the div with a class of footer
+const divClass = document.querySelector(".footer");
+divClass.remove();
